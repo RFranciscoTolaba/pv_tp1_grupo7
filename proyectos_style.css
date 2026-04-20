@@ -1,30 +1,49 @@
 
 
 header {
-  height: 170px;
+ /* height: 170px;*/
   display: flex;
   background-color: rgb(58, 73, 72);
   justify-content: space-between;
-  padding: 5px;
+  padding: 0px;
   align-items: center;
-  color: azure;
-  font-size: 40px;
+  color: rgb(226, 245, 245);
 }
 
 ul {
-    position:sticky;
-  top: 0;
   display: flex;
-  list-style: none;
-  gap: 80px;
-  margin: 50px;
+  list-style-type: none;
+ /* gap: 80px;
+  margin: 50px;*/
+  
+  padding: 0;
+  margin: 0;
 
 }
 
-.Navbar a {
-  color: bisque;
+.Navbar ul li a {
+  display:inline-block;
+  height:110px;
+  align-content: center;
+  font-size: 24px;
+  padding: 0px 25px;
+  margin: 0;
+  
+}
+
+.Navbar ul li a:link, .Navbar ul li a:visited {
+  background-color: rgb(74, 94, 92);
+  color: rgb(231, 210, 185);
+  text-align: center;
   text-decoration: none;
-  font-size: 22px;
+/* display: inline-block;*/
+}
+
+.Navbar ul li a:hover, .Navbar ul li a:active {
+  background-color: rgb(53, 65, 64);
+  font-size: 25px;
+  text-shadow: 0 2px 6px rgb(173, 161, 148);
+  color: rgb(241, 230, 218);
 }
 
 .filtro {
@@ -39,12 +58,11 @@ ul {
 
 
 
-
 img {
   /*width: 800px;      
     height:600px;   */
   display: block;
-    width: 100%;
+  width: 100%;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
