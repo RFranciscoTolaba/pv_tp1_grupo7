@@ -1,33 +1,32 @@
-
-
 header {
- /* height: 170px;*/
   display: flex;
   background-color: rgb(58, 73, 72);
   justify-content: space-between;
+  height: 90px;
   padding: 0px;
   align-items: center;
   color: rgb(226, 245, 245);
+  position: sticky;
+  top: 0;
 }
 
-ul {
+
+.Navbar ul {
   display: flex;
   list-style-type: none;
- /* gap: 80px;
-  margin: 50px;*/
-  
+  justify-content: center;
   padding: 0;
   margin: 0;
+
 
 }
 
 .Navbar ul li a {
-  display:inline-block;
-  height:110px;
+  display:block;
+  height:90px;
   align-content: center;
   font-size: 24px;
   padding: 0px 25px;
-  margin: 0;
   
 }
 
@@ -50,11 +49,36 @@ ul {
   display: block;
   align-items: center;
   text-align: right;
+  font-size: 18px;
+  font-weight: bold;
   /*background-color: rgb(60, 82, 82);
   color: rgb(207, 204, 199);*/
 }
 
+.filtro div select{
+  background-color: rgb(74, 94, 92);
+  color: rgb(245, 233, 214);
+  font-size: 18px;
+  font-weight: bold;
+  height: 30px;
+  border-color: rgb(17, 17, 17);
+  border-radius: 7px;
+  box-shadow: 0 3px 5px rgb(93, 93, 93);
+}
 
+
+
+.filtro div select:link, .filtro div select:visited {
+  background-color: rgb(74, 94, 92);
+  color: rgb(245, 233, 214);
+ }
+
+.filtro div select:hover, .filtro div select:active {
+  background-color: rgb(53, 65, 64);
+  font-size: 18.5px;
+  text-shadow: 0 2px 6px rgb(102, 96, 90);
+  color: rgb(241, 230, 218);
+}
 
 
 
