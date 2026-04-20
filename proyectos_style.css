@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(215, 250, 247);
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
+
+header{
+    height: 170px;
+    display: flex;
+    background-color: rgb(58, 73, 72);
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    color: azure;
+    font-size: 40px;
+}
+
+ul{
+      display: flex;
+    list-style: none;
+    gap: 80px;
+    margin: 50px;
+}
+
+.Navbar a{
+  
+    color: bisque;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+h1{
+  color:rgb(199, 253, 249);
+}
