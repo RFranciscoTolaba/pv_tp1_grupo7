@@ -1,10 +1,4 @@
-body {
-  background-color: rgb(215, 250, 247);
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 550;
-  font-style: normal;
-}
+
 
 header {
   height: 170px;
@@ -18,21 +12,19 @@ header {
 }
 
 ul {
+    position:sticky;
+  top: 0;
   display: flex;
   list-style: none;
   gap: 80px;
   margin: 50px;
+
 }
 
 .Navbar a {
   color: bisque;
   text-decoration: none;
   font-size: 22px;
-}
-
-h1 {
-  color: rgb(197, 218, 216);
-  padding: 10px;
 }
 
 .filtro {
@@ -45,3 +37,39 @@ h1 {
 
 
 
+
+
+
+img {
+  /*width: 800px;      
+    height:600px;   */
+  display: block;
+    width: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prjdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+article {
+  width: 500px;
+  padding: 10px;
+  background-color: rgb(248, 230, 207);
+  border: 4px;
+  border-style: solid;
+  border-color: rgb(228, 204, 174);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(93, 93, 93);
+  margin: 15px;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(163, 163, 163);
+  text-decoration-style: solid;
+  font-size: 25px;
+}
