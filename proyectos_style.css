@@ -6,31 +6,42 @@ body {
   font-style: normal;
 }
 
-header{
-    height: 170px;
-    display: flex;
-    background-color: rgb(58, 73, 72);
-    justify-content: space-between;
-    padding: 5px;
-    align-items: center;
-    color: azure;
-    font-size: 40px;
+header {
+  height: 170px;
+  display: flex;
+  background-color: rgb(58, 73, 72);
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  color: azure;
+  font-size: 40px;
 }
 
-ul{
-      display: flex;
-    list-style: none;
-    gap: 80px;
-    margin: 50px;
+ul {
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  margin: 50px;
 }
 
-.Navbar a{
-  
-    color: bisque;
-    text-decoration: none;
-    font-size: 22px;
+.Navbar a {
+  color: bisque;
+  text-decoration: none;
+  font-size: 22px;
 }
 
-h1{
-  color:rgb(199, 253, 249);
+h1 {
+  color: rgb(197, 218, 216);
+  padding: 10px;
 }
+
+.filtro {
+  display: block;
+  align-items: center;
+  text-align: right;
+  /*background-color: rgb(60, 82, 82);
+  color: rgb(207, 204, 199);*/
+}
+
+
+
