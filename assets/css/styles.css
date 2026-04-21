@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    background-color:#E3FFEF
+}
+body{
+    font-family: "Nunito", sans-serif;
+}
+header{
+  background-color: #E3FFEF;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.nom-per{
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  position:relative;
+}
+.nom{
+    margin: 0 auto;
+    margin-right: px;
+    position:absolute;
+    left: 42%;
+}
+.opc{
+    display: flex;
+    justify-content: center;
+    gap: 90%;
+    margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+}
+.perfil {
+    background-color:white;
+border: 2px solid black;
+align-items: center;
+gap: 1px;
+padding:1px 5px;
+flex-direction: column;
+}
+.perfil-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    align-items: center;
+}
+.cu{
+    display: flex;
+    flex-direction: column; 
+    font-size: 10px;
+    align-items: center;
+}
+.bienv{
+    margin: 0;
+}
