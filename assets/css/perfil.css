@@ -1,0 +1,120 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227,234,242);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+}
+header{
+    background-color: #000000;
+    color: rgb(227,234,242);
+}
+
+
+#contenedor1{
+    background-color: rgb(227,234,242);
+    color:#333333 ;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+#contenedor2{
+    background-color: rgb(227,234,242);
+    color:#333333 ;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    width: 200px;
+    background-color:rgb(202, 222, 148) ;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(167, 197, 82)  ;
+    box-shadow: 0 4px 6px gray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+footer{
+    
+    background-color: #000000;
+    text-align: center;
+    color: rgb(227,234,242);
+}
+#contenedorNav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 5px;
+
+
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    padding-right: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nombreTarjeta{
+    text-align: center;
+}
+.imagenTarjeta{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+#logo {
+    height: 90px; 
+    width: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 3px;
+}
+#temaPagina{
+    text-align: center;
+    padding: 15px;
+}
+#navbar a:hover{
+    color: rgb(202, 222, 148);
+}
+#navbar a:active{
+    color: rgb(198, 189, 189);
+}
+#navbar a:focus{
+    outline: 2px solid rgb(196, 233, 97);
+    outline-offset: 4px;
+}
+.tarjeta:hover{
+    border-color: #000000;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+.tarjeta:active{
+    border-color: #2f7807;
+    transform: translateY(0); 
+    box-shadow: 0 4px 6px gray;
+}
+
