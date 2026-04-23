@@ -1,49 +1,72 @@
-*{
+/*===== aplicando css global =====*/
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-:root{
-    background-color:#E3FFEF
-}
-body{
     font-family: "Nunito", sans-serif;
 }
-header{
-  background-color: #E3FFEF;
+
+:root {
+    background-color: black
+}
+
+body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/*===== aplicando css al header =====*/
+header {
+    background-color: #E3FFEF;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.nom-per{
-  width: 100%;
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  position:relative;
+
+.nom-per {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
 }
-.nom{
+
+.nom {
     margin: 0 auto;
     margin-right: px;
-    position:absolute;
+    position: absolute;
     left: 42%;
 }
-.opc{
+
+.opc {
     display: flex;
     justify-content: center;
     gap: 90%;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
+
 nav a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
+
 .perfil {
-    background-color:white;
-border: 2px solid black;
-align-items: center;
-gap: 1px;
-padding:1px 5px;
-flex-direction: column;
+    background-color: white;
+    border: 2px solid black;
+    align-items: center;
+    padding: 1px 5px;
+    margin-right: 1%;
+    margin-top: 1%;
 }
+
 .perfil-img {
     width: 40px;
     height: 40px;
@@ -51,12 +74,78 @@ flex-direction: column;
     margin-left: 20px;
     align-items: center;
 }
-.cu{
+
+.cu {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     font-size: 10px;
     align-items: center;
 }
-.bienv{
+
+.bienv {
     margin: 0;
+}
+
+/*===== aplicando css al main =====*/
+
+main {
+    color: black;
+    flex: 1;
+}
+
+.interes {
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    flex-direction: wrap;
+    align-content: flex-start;
+    height: 100%;
+    gap: 2em;
+}
+
+.estad {
+    flex-basis: 100px;
+    flex-grow: 1;
+    color: white;
+    justify-items: center;
+    border: 1px solid white
+}
+
+.noved {
+    background-color: greenyellow;
+    color: black;
+    flex-basis: 100px;
+    flex-grow: 1;
+    justify-items: center;
+
+}
+
+.est-tit {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1em;
+
+}
+
+.nov-tit {
+    font-size: 50px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.cont-estad {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.cont-nov {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    font-size: 30px;
+    list-style-type: none;
+
+}
+.txtn{
+    margin-top: 7%;
 }
