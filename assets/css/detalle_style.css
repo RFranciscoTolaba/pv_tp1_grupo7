@@ -1,0 +1,63 @@
+/* Fondo general */
+html {
+    background-color: rgb(227, 234, 242);
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado: Negro con letras Verdes */
+header {
+    background-color: #000000;
+    color: rgb(196, 233, 97);
+    padding: 20px;
+    text-align: center;
+}
+
+/* texto sea legible */
+main {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 35px;
+    background-color: #ffffff; /* Fondo blanco */
+    border: 3px solid rgb(196, 233, 97); /* Borde verde */
+    border-radius: 12px;
+    color: #000000; /* Letras negras */
+    line-height: 1.6;
+}
+
+/* Títulos de secciones */
+h2 {
+    color: rgb(58, 63, 39);
+    border-bottom: 2px solid rgb(196, 233, 97);
+    padding-bottom: 8px;
+}
+
+/* Limpieza de listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Estilo de Botones */
+.recurso-link {
+    display: inline-block;
+    background-color: rgb(53, 58, 57);
+    color: rgb(240, 240, 227);
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+/* Efecto */
+.recurso-link:hover {
+    background-color: rgb(196, 233, 97); 
+    color: #000000; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
